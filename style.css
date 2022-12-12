@@ -1,0 +1,196 @@
+body{
+    background:#e5e5e5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Martian Mono', monospace;
+
+}
+
+header img:hover{
+    transform: translate(0, -20px);
+    cursor: pointer;
+}
+
+#modo{
+    position: relative;
+    display: inline-block;
+    left: 945px;
+    bottom: 15px;
+    
+}
+
+#container{
+    background-color: #f8f8f8;
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    box-shadow: inset 4px 4px 4px 6px #cecece,
+                inset -4px -4px 4px 6px #ffffff;
+    margin: 0px auto;
+    /*margin-top: 350px;*/
+    border-radius: 25px;
+
+    cursor: pointer; 
+    left: 950px;
+}
+
+.toggle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    transform: scale(.7);
+    background-color: #585858;
+    border-radius: 25px;
+    box-shadow:  3px 3px 8px #c4c4c4,
+                -3px -3px 8px #ffffff;
+}
+
+#container.active .toggle{
+    left: 20px;
+
+}
+
+
+body.active{
+    background-color: #ffb266
+  
+}
+
+#modo.active{
+    color: #ffffff;
+}
+
+#pie.active{
+    color: #ffffff;
+}
+
+#advertencia.active{
+    color: #ffffff;
+}
+
+
+main{
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+
+
+.section2{
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.input-texto{
+    margin-top: 10px;
+    max-width: 95%;
+    min-width: 95%;
+    max-height: 410px;
+    min-height: 410px;
+    border: none;
+    background: none;
+    background:none;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Martian Mono', monospace;
+
+}
+
+.contenedor-botones{
+    margin-left: 10px;
+}
+
+
+.contenedor-botones p{
+    display: inline-block;
+    
+
+}
+
+.botones{
+    text-align: center;
+    
+}
+
+
+
+.encriptar{
+    
+    width: 300px;
+    height: 67px;
+    background-color: #0a3871;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    border-width: 0px;
+    cursor: pointer;
+    font-family: 'Martian Mono', monospace;
+   
+
+}
+
+.desencriptar{
+    
+    width: 300px;
+    height: 67px;
+    background-color: #D8DFE8;
+    border-radius: 10px;
+    border-color:1px solid #0a3871;
+    color: #0a3871;
+    font-size: 20px;
+    border-width: 1px;
+    cursor: pointer;
+    font-family: 'Martian Mono', monospace;
+
+   
+   
+}
+
+.mensaje{
+    position: relative;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 450px;
+    color: #0a3871;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px;
+    border: none;
+    margin-bottom: 5px;
+    font-size: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    border-radius: 20px;
+    block-size: 600px;
+    text-align: center;
+    font-family: 'Martian Mono', monospace;
+}
+
+
+.copiar{
+    background: #D8DFE8;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border-color: #0a3871;
+    color: #0a3871;
+    border-width: 1px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Martian Mono', monospace;
+   
+}
+
+
+footer{
+    text-align: center;
+}
+

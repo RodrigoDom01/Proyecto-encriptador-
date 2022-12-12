@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+
+    <header>
+        <a href="https://www.aluracursos.com/"> <img src="imagenes/Logo.png" alt="Logo Alura con la inicial de la letra a"></a>
+         <div id="modo">
+            <h3>Mode</h3> 
+        </div>
+        <div id="container">
+            <div class="toggle"></div>
+        </div>
+    </header>
+    <main>
+        <section class="section1">
+            
+            <textarea  id="texto" class="input-texto" placeholder="Ingrese el texto que desee encriptar o desencriptar"></textarea>
+           
+            <div class="contenedor-botones" id="advertencia">
+                <img src="imagenes/Vector.png" alt="vector advertencia">
+                <p>Solo letras minusculas y sin acentos</p>
+            </div>
+
+            <div class="botones">
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+
+        </section>
+ 
+        <section class="section2">
+
+            <textarea class="mensaje" cols="18" rows="8" placeholder="El mensaje se mostrara aqui"></textarea>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+           
+
+        </section>
+    </main>
+    <footer class="titulo-final" id="pie">
+        <p>© Rodrigo F. Dominguez - ONE Latam - Todos los derechos reservados</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
